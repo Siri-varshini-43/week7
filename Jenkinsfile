@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Building Docker image...'
                   
-                    docker.build('my-flask-app')
+                    bat 'docker build -t week7 .'
                 
                 
             }
