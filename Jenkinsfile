@@ -19,7 +19,7 @@ pipeline {
                 
             }
         }
-        post{
+        post {
             success {
                 echo 'Tests passed!'
             }
